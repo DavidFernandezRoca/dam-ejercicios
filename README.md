@@ -1,27 +1,24 @@
-# Ejercicios de clase — DAM
+# Ejercicios de Programación — 1º DAM
 
-Ejercicios que voy haciendo en el ciclo de **Desarrollo de Aplicaciones Multiplataforma**, organizados por módulo.
+Ejercicios en **Java** que voy haciendo en el módulo de Programación de 1º de Desarrollo de Aplicaciones Multiplataforma.
 
-## Cómo está organizado
+Cada archivo lleva el enunciado del ejercicio como comentario en la primera línea.
 
-Cada módulo tiene su carpeta y, dentro, una carpeta por tema o unidad:
+## Temas
 
-```
-programacion/
-  tema-01/
-  tema-02/
-lenguajes-de-marcas/
-  tema-01/
-```
-
-## Módulos
-
-| Carpeta | Módulo | Tecnologías |
+| Carpeta | Tema | Ejercicios |
 |---|---|---|
-| programacion | Programación | Java |
-| lenguajes-de-marcas | Lenguajes de marcas | HTML, CSS y XML |
+| [01-primeras-instrucciones](01-primeras-instrucciones) | Mostrar por pantalla, variables y tipos, leer datos del teclado | 1 a 5 |
+| [02-expresiones-y-calculos](02-expresiones-y-calculos) | Operaciones aritméticas, constantes, áreas y conversiones | 6 a 14 |
 
-Iré añadiendo más módulos según avance el curso.
+Iré añadiendo más temas según avance el curso.
+
+## Cómo ejecutar un ejercicio
+
+```
+javac Ejercicio1.java
+java Ejercicio1
+```
 
 ## Autor
 
