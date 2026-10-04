@@ -8,7 +8,7 @@ public class Ejercicio14{
         Scanner leer = new Scanner(System.in);
         System.out.println("Dime la cantidad de minutos: ");
         minuto = leer.nextInt();
-        System.out.println("En en horas son: " + (minuto / 60));
-        System.out.println("En en horas son: " + (minuto % 60));
+        System.out.println("En horas son: " + (minuto / 60));
+        System.out.println("Los minutos restantes son: " + (minuto % 60));
     }
 }
